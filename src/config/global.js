@@ -136,7 +136,7 @@ export default {
     },
     {
       tema: '2. Metodología RITE',
-      referencia: 'Unity3dtutorial. (2015). Unity Test Tools.',
+      referencia: 'Unity3dtutorial. (2015). <em>Unity Test Tools</em>.',
       tipo: 'Artículo',
       link:
         'https://unity3dtutorial.wordpress.com/2015/09/28/unity-test-tools/',
@@ -144,27 +144,27 @@ export default {
     {
       tema: '3. Modelos de iteración',
       referencia:
-        'Pérez, O. A. (2011). Cuatro enfoques metodológicos para el desarrollo de Software RUP- MSF-XP-SCRUM.',
+        'Pérez, O. A. (2011). <em>Cuatro enfoques metodológicos para el desarrollo de Software</em> RUP- MSF-XP-SCRUM.',
       tipo: 'Artículo',
       link: 'https://core.ac.uk/download/pdf/230219821.pdf',
     },
     {
       tema: '4. Modelos de iteración',
       referencia:
-        'Proyectos ágiles.org. (s.f). Desarrollo iterativo e incremental.',
+        'Proyectos ágiles.org. (s.f). <em>Desarrollo iterativo e incremental</em>.',
       tipo: 'Artículo',
       link: 'https://proyectosagiles.org/desarrollo-iterativo-incremental/',
     },
     {
       tema: '5. Modelos de Prueba de Usabilidad',
       referencia:
-        'Traynor, V. (2015). Pruebas de usabilidad con Verónica Traynor.',
+        'Traynor, V. (2015). <em>Pruebas de usabilidad con Verónica Traynor</em>.',
       tipo: 'Video',
       link: 'https://youtu.be/uh4sZmQiRr4',
     },
     {
       tema: '6. Modelos de Prueba de Usabilidad',
-      referencia: 'Lorés, J. et al. (2006). Evaluación.',
+      referencia: 'Lorés, J. et al. (2006). <em>Evaluación</em>.',
       tipo: 'PDF',
       link: 'https://aipo.es/libro/pdf/04Evalua.pdf',
     },
@@ -193,12 +193,12 @@ export default {
     {
       termino: 'PUR',
       significado:
-        'Proyecto Unificado Racional (PUR), es una metodología cuyo objetivo es ordenar y estructurar el desarrollo del software, en la cual se realizan un conjunto de actividades para transformar los requisitos del usuario en un sistema (Pérez, 2011).',
+        ' Proyecto Unificado Racional (PUR), es una metodología cuyo objetivo es ordenar y estructurar el desarrollo del software, en la cual se realizan un conjunto de actividades para transformar los requisitos del usuario en un sistema (Pérez, 2011).',
     },
     {
       termino: 'Rite',
       significado:
-        'Rapid Iterative Testing Evaluation, es decir testeo rápido iterativo de evaluación. RITE es una metodología que consiste en una técnica para evaluar el desarrollo de un proyecto a través de ciclos rápidos de ejecución hasta alcanzar el resultado final, a estos ciclos se les llama iteraciones.',
+        ' <em>Rapid Iterative Testing Evaluation</em>, es decir testeo rápido iterativo de evaluación. RITE es una metodología que consiste en una técnica para evaluar el desarrollo de un proyecto a través de ciclos rápidos de ejecución hasta alcanzar el resultado final, a estos ciclos se les llama iteraciones.',
     },
     {
       termino: 'Scrum',
@@ -218,41 +218,42 @@ export default {
     {
       termino: 'XP',
       significado:
-        'Programación Extrema (XP) es una disciplina de desarrollo de software basada en los métodos ágiles, donde se evidencian los principios de desarrollo incremental, participación del cliente, el interés se centra en las personas y no en los procesos (Pérez, 2011).',
+        ' Programación Extrema (XP) es una disciplina de desarrollo de software basada en los métodos ágiles, donde se evidencian los principios de desarrollo incremental, participación del cliente, el interés se centra en las personas y no en los procesos (Pérez, 2011).',
     },
   ],
   referencias: [
     {
-      referencia: 'Churchville, F. (s.f). Interfaz de usuario (IU).',
+      referencia: 'Churchville, F. (s.f). <em>Interfaz de usuario (IU)</em>.',
       link:
         'https://searchdatacenter.techtarget.com/es/definicion/Interfaz-de-usuario-UI',
     },
     {
-      referencia: 'Fernández, C., P. E. (2019). Usabilidad web: teoría y uso.',
+      referencia:
+        'Fernández, C., P. E. (2019). <em>Usabilidad web: teoría y uso</em>.',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=9087',
     },
     {
       referencia:
-        'Letelier, P. (2013). Desarrollo iterativo versus incremental… [web log post]. Blogspot.',
+        'Letelier, P. (2013). <em>Desarrollo iterativo versus incremental… [web log post]. Blogspot</em>.',
       link:
         'http://agilismoatwork.blogspot.com/2013/06/desarrollo-iterativo-versus-incremental.html',
     },
     {
-      referencia: 'Lorés, J., et al. (2006). Evaluación.',
+      referencia: 'Lorés, J., et al. (2006). <em>Evaluación</em>.',
       link: 'https://aipo.es/libro/pdf/04Evalua.pdf',
     },
     {
       referencia:
-        'Pérez, O. A. (2011). Cuatro enfoques metodológicos para el desarrollo de Software RUP – MSF – XP - SCRUM.',
+        'Pérez, O. A. (2011). <em>Cuatro enfoques metodológicos para el desarrollo de Software RUP – MSF – XP - SCRUM.</em>',
       link: 'https://core.ac.uk/download/pdf/230219821.pdf',
     },
     {
       referencia:
-        'Proyectos ágiles.org. (s. f.). Desarrollo iterativo e incremental.',
+        'Proyectos ágiles.org. (s. f.). <em>Desarrollo iterativo e incremental</em>.',
       link: 'https://proyectosagiles.org/desarrollo-iterativo-incremental/',
     },
     {
-      referencia: 'Unity3dtutorial. (2015). Unity Test Tools.',
+      referencia: 'Unity3dtutorial. (2015). <em>Unity Test Tools</em>.',
       link:
         'https://unity3dtutorial.wordpress.com/2015/09/28/unity-test-tools/',
     },

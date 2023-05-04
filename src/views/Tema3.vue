@@ -102,7 +102,7 @@
           .col-lg-7
             figure
               img(src='@/assets/curso/tema3/8.png')
-            figcaption.fw-normal(style="background-color:#CBFAFF;") Registro
+            figcaption.fw-normal(style="background-color:#CBFAFF;") Patrón de botones
       .py-3.py-md-4(titulo="H5")
         .row
           .col-lg-5.mb-4.mb-lg-0
@@ -122,7 +122,7 @@
           .col-lg-7
             figure
               img(src='@/assets/curso/tema3/10.png')
-            figcaption.fw-normal(style="background-color:#CBFAFF;") Recordación
+            figcaption.fw-normal(style="background-color:#CBFAFF;") Detalles
       .py-3.py-md-4(titulo="H7")
         .row
           .col-lg-5.mb-4.mb-lg-0
@@ -132,7 +132,7 @@
           .col-lg-7
             figure
               img(src='@/assets/curso/tema3/11.png')
-            figcaption.fw-normal(style="background-color:#CBFAFF;") Indicador acciones realizar en el juego
+            figcaption.fw-normal(style="background-color:#CBFAFF;") Botones
       .py-3.py-md-4(titulo="H8")
         .row
           .col-lg-5.mb-4.mb-lg-0
@@ -327,7 +327,9 @@
             h4.text-center(data-aos="fade-up" style="color:#12263F;") Análisis de resultados
             p.text-center(data-aos="fade-up" style="color:#12263F;") Después de aplicadas las pruebas el equipo debe analizar los resultados obtenidos y determinar cuáles son los aspectos que se deben mejorar en el producto para que la experiencia de usuario sea satisfactoria por cumplir con las condiciones de fácil uso.
     
-    .col-lg-10.m-auto.mt-5
+    p.mt-5(data-aos="fade-up") Conocidos los aspectos para iniciar las pruebas se tiene para las tres técnicas que se va a utilizar el siguiente aspecto en común:
+
+    .col-lg-10.m-auto.mt-4
       .cajon.color-acento-contenido.p-4(style="background-color:#E1DDFC;")
         p.mb-0(data-aos="fade-up") #[strong Participantes:] se convocaron 4 usuarios que les llama la atención los videojuegos por lo que han jugado alguna vez y poseen entre 18 y 22 años, poseen habilidades tecnológicas por las ocupaciones de estudio y trabajo.
     
@@ -338,14 +340,12 @@
       .col(style="place-self:center;")
         h3.mb-0(data-aos="fade-right") Primera técnica de usabilidad: heurística
     
-    p.mt-4(data-aos="fade-up") Esta técnica se utiliza para medir aspectos del uso del producto, por ello se debe llevar a cabo sobre el prototipo o sobre el producto terminado de tal forma que el evaluador pueda visualizar el número de errores que arroja el aplicativo, o las percepciones de los usuarios frente a lo que el producto lo puede beneficiar, por lo que se considera una técnica cuantitativa y cualitativa, en ella se debe:
-
     .row.mt-5.pb-3(style="border-bottom:1px #AFAFAF solid;")
       .col-auto.pe-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema3/26.svg" data-aos="fade-up")
       .col(style="place-self:center;")
-        p.mb-0(data-aos="fade-up") #[strong Objetivo de la prueba:] En el videojuego de “La isla de los tesoros escondidos” el equipo de diseño y desarrollo deberá determinar si la interfaz de usuario presenta saturación de imágenes y si el jugador puede tomar el control del juego con facilidad a través de las diferentes funciones que posee.
+        p.mb-0(data-aos="fade-up") #[strong Objetivo de la prueba:] en el videojuego de “La isla de los tesoros escondidos” el equipo de diseño y desarrollo deberá determinar si la interfaz de usuario presenta saturación de imágenes y si el jugador puede tomar el control del juego con facilidad a través de las diferentes funciones que posee.
     .row.mt-3
       .col-auto.pe-0(style="place-self:center;")
         figure
@@ -359,47 +359,43 @@
           figure.col-4.m-auto
             img(src="@/assets/curso/tema3/27.svg" data-aos="zoom-in-up")
           h3.mt-4.text-white.text-center(data-aos="fade-up") Consistencia
-          p.mt-4.text-white.text-center(data-aos="fade-up") Está limitado por el #[em.text-white Fillrate] o tasa de relleno que determina, en esencia, la cantidad de píxeles que la tarjeta gráfica es capaz de dibujar o renderizar, procesar y almacenar, por cada unidad de tiempo.
+          p.mt-4.text-white.text-center(data-aos="fade-up") Con esta heurística se determina si el videojuego presenta un patrón de diseño en los botones, barras, pestañas y en general de los elementos de tal manera que le permitan al usuario tomar el control del juego y de las funciones con facilidad.
       .col-lg-6.p-0
         .p-5.h-100(style="background-color:#05DBF3;border-radius:0px 15px 15px 0px;")
           figure.col-4.m-auto
             img(src="@/assets/curso/tema3/28.svg" data-aos="zoom-in-up")
           h3.mt-4.text-center(data-aos="fade-up") Diseño minimalista
-          p.mt-4.text-center(data-aos="fade-up") Está limitado por el número de Batches o lotes de información gráfica que necesita ser renderizada. En términos generales, se remite al cálculo por el procesador de la máquina y el almacenamiento de información en memoria RAM.
+          p.mt-4.text-center(data-aos="fade-up") Con esta heurística se determinará si la interfaz del usuario está muy cargada de imágenes de tal manera que saturan y confunden al usuario con distractores que lo desvíen del objetivo de encontrar los tesoros escondidos.
     
     p.mt-5(data-aos="fade-up") Según Fernández (2019), la métrica de evaluación del método heurístico es la que utiliza Nielsen: 
 
     TabsA.color-acento-contenido.mt-5
       .tarjeta.color-secundario.p-4(titulo="Relevancia del problema")
         .row
-          .col-lg-7.mb-4.mb-lg-0
-            h4 Relevancia del problema
+          .col-xl-6.mb-4.mb-xl-0
             p En esta tabla se observa el grado de severidad de un problema presentado con el producto, siendo el más alto (4) cuando el problema es bloqueante o le impide al usuario seguir adelante con otra función, es grave (3) cuando el usuario puede utilizar alguna otra función del producto, es menor (2) cuando puede operar el producto aunque presente algunos inconvenientes, es cosmético (1) cuando el producto es utilizable y funcional aunque requiera en algún momento de realizar cualquier tipo de actualización para su óptimo funcionamiento, y no supone problema (0) cuando el producto funciona correctamente.
-          .col-lg-5
+          .col-xl-6
             figure
               img(src="@/assets/curso/tema3/29.svg")
       .tarjeta.color-secundario.p-4(titulo="Frecuencia del problema")
         .row
-          .col-lg-7.mb-4.mb-lg-0
-            h4 Frecuencia del problema
+          .col-xl-6.mb-4.mb-xl-0
             p Aquí se observa la frecuencia con que la heurística no satisface al usuario y le asigna una calificación, es decir que si se obtuvo un 4 es porque más del 90% de las veces el producto presenta fallas, si es de 3 es porque entre el 50% y el 90% el producto no cumple con lo esperado por algún tipo de problemas, si es de 2 quiere decir el producto presenta problemas entre el 10% y 25% de las veces en que es utilizado, y si es 0 el producto falla máximo el 10% de las veces y se puede considerar que tiene un buen funcionamiento. 
-          .col-lg-5
+          .col-xl-6
             figure
               img(src="@/assets/curso/tema3/30.svg")
       .tarjeta.color-secundario.p-4(titulo="Heurísticas")
         .row
-          .col-lg-7.mb-4.mb-lg-0
-            h4 Heurísticas
+          .col-xl-6.mb-4.mb-xl-0
             p Las afirmaciones diseñadas para cada heurística también pueden ser preguntas si se desea. De acuerdo con las pruebas, el número de veces que se puede dar la falla en la toma del control del videojuego (H4) es cinco (5), ya que es la cantidad de veces que se prueba la afirmación y el número de veces que consideran los usuarios se falla por el exceso de imágenes es de tres (3). El porcentaje se halló dividiendo el número de veces de la falla entre el máximo número de fallas el cual es ocho (8). Si se trasladan los resultados a las tablas de relevancia y frecuencia se obtiene:
-          .col-lg-5
+          .col-xl-6
             figure
               img(src="@/assets/curso/tema3/31.svg")
-      .tarjeta.color-secundario.p-4(titulo="Nivel de gravedad y número de reiteraciones")
+      .tarjeta.color-secundario.p-4(titulo="Nivel de gravedad y <br> número de reiteraciones")
         .row
-          .col-lg-7.mb-4.mb-lg-0
-            h4 Nivel de gravedad y número de reiteraciones
+          .col-xl-6.mb-4.mb-xl-0
             p En estas dos tablas se observa que, de acuerdo con lo establecido respecto a la relevancia y la frecuencia, el problema con mayor prioridad está en la heurísticas H4 de consistencia con la falla para tomar el control del juego cuando se interacciona con él. La heurística H8 representa un problema menor para el producto, ya que se considera que solo el 38% de la muestra considera que hay exceso de imágenes. Lo anterior quiere decir que el aspecto prioritario a modificar en el producto está en la elaboración de controles más sencillos, siguiendo un patrón de colores o estilos para hacerlo más comprensible y funcional para el jugador.
-          .col-lg-5
+          .col-xl-6
             figure
               img(src="@/assets/curso/tema3/32.svg")
     
@@ -487,7 +483,6 @@
           p.mt-5.mb-5 ¿El aplicativo arrojó algún mensaje de éxito o de error dependiendo de si pudo o no realizar el contacto? SÍ/NO (si la respuesta es SÍ/NO qué mensaje arrojó).
     
     p.mt-5(data-aos="fade-up") Los formatos diligenciados por los participantes son analizados y verificados por el equipo desarrollador para proceder a la corrección de las fallas presentados y volver a realizar la prueba que comprueben las mejoras en la funcionalidad del producto. 
-    p.mt-4(data-aos="fade-up") Si se quiere profundizar en las demás técnicas de cada modelo se recomienda la siguiente lectura complementaria:
 
     .row.mt-5.p-4.col-lg-10.m-auto(style="background-color:#C0EBF6;border-radius:10px;")
       .col-md-3.col-lg-1.d-flex.justify-content-center.mb-4.mb-lg-0(style="place-self:center;")

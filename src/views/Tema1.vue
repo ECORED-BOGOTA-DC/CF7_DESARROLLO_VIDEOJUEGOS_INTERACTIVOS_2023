@@ -13,7 +13,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0(data-aos="fade-up") Las siglas RITE significan Rapid Iterative Testing Evaluation, es decir testeo rápido iterativo de evaluación. Por consiguiente, la metodología RITE consiste en un método para evaluar el desarrollo de un proyecto a través de ciclos rápidos de ejecución hasta alcanzar el resultado final, a estos ciclos se les llama iteraciones.
+          p.mb-0(data-aos="fade-up") Las siglas RITE significan #[em Rapid Iterative Testing Evaluation], es decir testeo rápido iterativo de evaluación. Por consiguiente, la metodología RITE consiste en un método para evaluar el desarrollo de un proyecto a través de ciclos rápidos de ejecución hasta alcanzar el resultado final, a estos ciclos se les llama iteraciones.
           p.mt-4(data-aos="fade-up") Cada iteración representa un bloque de tareas que se realizan, se prueban y evalúan hasta lograr el perfeccionamiento del producto deseado.
       .row.mt-5.p-4(style="background-color:#C0EBF6;border-radius:10px;")
         .col-md-3.col-lg-1.d-flex.justify-content-center.mb-4.mb-lg-0(style="place-self:center;")
@@ -111,7 +111,7 @@
       .col(style="place-self:center;")
         h3.mb-0(data-aos="fade-right") Unity Test Tool
     
-    p.mt-4(data-aos="fade-up") Este componente o asset permite realizar un testeo o evaluación rápida de las funcionalidades que se van incorporando al juego. Es una herramienta que se debe integrar desde la opción de Asset Store del menú de Unity ya que una vez se instala el programa no es importada de la nube automáticamente.
+    p.mt-4(data-aos="fade-up") Este componente o #[em asset] permite realizar un testeo o evaluación rápida de las funcionalidades que se van incorporando al juego. Es una herramienta que se debe integrar desde la opción de #[em Asset Store] del menú de Unity ya que una vez se instala el programa no es importada de la nube automáticamente.
 
     p.mt-4(data-aos="fade-up") Pasos para incorporar esta herramienta dentro del programa de Unity:
     
@@ -181,7 +181,7 @@
         .row(titulo="")
           .col-lg-6.mb-4.mb-lg-0
             p Inmediatamente se activó la herramienta de testeo y mostró el siguiente mensaje en la ventana de la escena: #[em All Compiller errors have to be fixed before you can enter play mode].
-            p.mt-4 La acción no se pudo realizar ya que la escena se encontraba en modo de reproducción y el objeto no se puede compilar o procesar a nivel de #[em software]. Los botones encerrados en el círculo son los que indican el modo #[em play] o modo pausa, en el momento de copiar el elemento se encontraba en modo #[em play].
+            p.mt-4 La acción no se pudo realizar ya que la escena se encontraba en modo de reproducción y el objeto no se puede compilar o procesar a nivel de software. Los botones encerrados en el círculo son los que indican el modo #[em play] o modo pausa, en el momento de copiar el elemento se encontraba en modo #[em play].
             a.boton.color-acento-botones.mt-3(href="#" @click.prevent="modal7 = true")
               span Ampliar imagen
               i.fas.fa-search

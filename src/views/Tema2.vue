@@ -29,8 +29,6 @@
           span a
         | El primer producto es colocar las imágenes en una escena; esta entrega consiste en dos iteraciones donde se realiza el mismo proceso:
     
-    p.mt-5(data-aos="fade-up") Cuando se crea un perfil de la aplicación, hay algunas cosas que puede hacer para garantizar la coherencia entre las sesiones de creación de perfiles y para asegurarse de que los procesos que utiliza Unity no afecten los datos de creación de perfiles:
-
     .tabla-a.color-acento-botones.mt-5
       table
         thead(style="border:0;")
@@ -42,8 +40,8 @@
             td.p-4(style="border:0;border-right:1px #AFAFAF solid;") • Ubicarse en la ventana de proyecto.
             td.p-4 • Ubicarse en la ventana de proyecto.
           tr(style="background-color:#FFF;")
-            td.p-4(style="border:0;border-right:1px #AFAFAF solid;") • Abrir carpeta de asset fondos.
-            td.p-4 • Abrir carpeta de asset fondos.
+            td.p-4(style="border:0;border-right:1px #AFAFAF solid;") • Abrir carpeta de #[em asset] fondos.
+            td.p-4 • Abrir carpeta de #[em asset] fondos.
           tr(style="background-color:#F6F6F6;")
             td.p-4(style="border:0;border-right:1px #AFAFAF solid;") • Seleccionar el fondo y arrástralo a la ventana de la escena.
             td.p-4 •   Seleccionar el superhéroe y arrástralo a la ventana de la escena.
@@ -61,8 +59,6 @@
           span b
         |  El segundo producto es colocar la imagen del superhéroe sobre el fondo; esta entrega se compone de dos iteraciones:
     
-    p.mt-5(data-aos="fade-up") Cuando se crea un perfil de la aplicación, hay algunas cosas que puede hacer para garantizar la coherencia entre las sesiones de creación de perfiles y para asegurarse de que los procesos que utiliza Unity no afecten los datos de creación de perfiles:
-
     .row.mt-5
       .col-lg-6.mb-4.mb-lg-0
         .p-4.h-100.cont_2_1
@@ -72,7 +68,7 @@
             p(data-aos="fade-up") •.  Hacer clic en el botón que está en el círculo.
             figure.mt-4.m-auto.text-center
               img(src="@/assets/curso/tema2/3.svg" style="display:inline;max-width:300px;" data-aos="zoom-in-up")
-              p.text-center(data-aos="fade-up") #[em Order layer]
+              p.text-center(data-aos="fade-up") #[em Botones]
             figure.mt-4.m-auto.text-center
               img(src="@/assets/curso/tema2/4.svg" style="display:inline;max-width:200px;" data-aos="zoom-in-up")
               p.text-center(data-aos="fade-up") Superhéroe
@@ -85,11 +81,11 @@
           .p-3.text-center.text-white(style="background-color:#8979F3;border-radius:15px;")
             p.mb-0.fw-bold(data-aos="fade-up") Iteración 4 para que el superhéroe quede sobre el fondo
           .col-lg-11.m-auto.mt-4
-            p(data-aos="fade-up") •   El superhéroe está seleccionado debajo del fondo; ya que se observa el recuadro con 4 puntos azules y en la ventana del inspector se aprecian los datos de escala, posición y en la parte de abajo la opción order layer con el valor de 0:
+            p(data-aos="fade-up") •   El superhéroe está seleccionado debajo del fondo; ya que se observa el recuadro con 4 puntos azules y en la ventana del inspector se aprecian los datos de escala, posición y en la parte de abajo la opción #[em order layer] con el valor de 0:
             figure.mt-4.m-auto.text-center
               img(src="@/assets/curso/tema2/6.svg" style="display:inline;max-width:500px;" data-aos="zoom-in-up")
               p.text-center(data-aos="fade-up") #[em Order layer]
-            p.mt-5(data-aos="fade-up") •   El valor de order layer se pone en 1 para que el superhéroe se coloque en el primer nivel.
+            p.mt-5(data-aos="fade-up") •   El valor de #[em order layer] se pone en 1 para que el superhéroe se coloque en el primer nivel.
             figure.mt-4.m-auto.text-center
               img(src="@/assets/curso/tema2/7.svg" style="display:inline;max-width:500px;" data-aos="zoom-in-up")
               p.text-center(data-aos="fade-up") Imagen adelante
@@ -126,7 +122,7 @@
         figure
           img(src="@/assets/curso/tema2/9.svg" data-aos="fade-up")
       .col(style="place-self:center;")
-        p.mb-0(data-aos="fade-up") Después de cada iteración se puede obtener el feedback del usuario y hacer los ajustes requeridos.  
+        p.mb-0(data-aos="fade-up") Después de cada iteración se puede obtener el #[em feedback] del usuario y hacer los ajustes requeridos.  
     .row.mt-2
       .col-auto.pe-0(style="place-self:center;")
         figure
@@ -172,19 +168,14 @@
         
     TabsA.color-acento-contenido.mt-4
       .tarjeta.color-secundario.p-4(titulo="Equipo de trabajo")
-        h4 Equipo de trabajo
         p Está conformado por el cliente o dueño del producto, el Scrum manager o gestionador del proyecto, el equipo Scrum que desarrolla el producto, los stakeholders o asesores del proyecto (internos o externos) y los usuarios que realizan las pruebas del producto.
       .tarjeta.color-secundario.p-4(titulo="Pila de producto")
-        h4 Pila de producto
         p Es la lista priorizada de requisitos para la elaboración del producto, en la que puede intervenir todo el equipo para su elaboración, pero solo el cliente y el director del equipo es responsable de decidir sobre ella.
       .tarjeta.color-secundario.p-4(titulo="Artefactos")
-        h4 Artefactos
         p Están representados por la información clave generada en el proceso de desarrollo del producto; entre la que se encuentra la pila de producto, la planificación de la pila y la retrospectiva.
       .tarjeta.color-secundario.p-4(titulo="Flujo de actividades")
-        h4 Flujo de actividades
         p Es la lista de tareas de iteración que se deben ejecutar para el desarrollo de la pila del sprint.
       .tarjeta.color-secundario.p-4(titulo="Fases")
-        h4 Fases
         p Corresponde a las diferentes etapas del proceso que se lleva a cabo para obtener el producto final.
     
     .row.mt-5
@@ -281,13 +272,10 @@
 
     TabsA.color-acento-contenido.mt-5
       .tarjeta.color-secundario.p-4(titulo="Elaboración de pila de producto")
-        h4 Elaboración de pila de producto
         p Se refiere a los requerimientos que el cliente hace al equipo desarrollador, los cuales son elaborados en forma de pila o lista de requisitos, que se deben priorizar para su desarrollo. 
       .tarjeta.color-secundario.p-4(titulo="Planificación flexible")
-        h4 Planificación flexible
         p El cliente puede aumentar o cambiar los requisitos durante el proceso de desarrollo de cada iteración, esto significa que lo definido en un comienzo no se toma como una camisa de fuerza y el equipo debe estar en capacidad de dar respuesta a las nuevas necesidades.
       .tarjeta.color-secundario.p-4(titulo="Desarrollo incremental")
-        h4 Desarrollo incremental
         p Las iteraciones se planifican con el cliente de tal manera que el resultado sea un producto incremental, es decir, una parte de este hasta obtener el resultado final. Una vez desarrolladas las funciones con las que se llevan a cabo operaciones, se presentan al cliente para que éste pueda probarlas y hacer el #[em feedback] inmediatamente. El equipo inspecciona y hace las adaptaciones si son necesarias antes de terminar la iteración.
     
     h4.mt-5(data-aos="fade-up") Ejemplo de Scrum
