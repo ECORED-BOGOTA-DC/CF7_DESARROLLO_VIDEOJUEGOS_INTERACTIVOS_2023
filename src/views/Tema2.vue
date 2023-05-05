@@ -330,7 +330,7 @@
         a.boton.color-acento-botones.mb-3.d-block(href="https://proyectosagiles.org/desarrollo-iterativo-incremental/" target="_blank" data-aos="fade-left")
           span Enlace web
           i.fas.fa-link
-        a.boton.color-acento-botones.d-block(href="https://core.ac.uk/download/pdf/230219821.pdf" target="_blank" data-aos="fade-left")
+        a.boton.color-acento-botones.d-block(href="https://revistas.uniminuto.edu/index.php/Inventum/article/view/9/9" target="_blank" data-aos="fade-left")
           span Enlace web
           i.fas.fa-link
 

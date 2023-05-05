@@ -146,7 +146,8 @@ export default {
       referencia:
         'Pérez, O. A. (2011). <em>Cuatro enfoques metodológicos para el desarrollo de Software</em> RUP- MSF-XP-SCRUM.',
       tipo: 'Artículo',
-      link: 'https://core.ac.uk/download/pdf/230219821.pdf',
+      link:
+        'https://revistas.uniminuto.edu/index.php/Inventum/article/view/9/9',
     },
     {
       tema: '4. Modelos de iteración',
@@ -161,12 +162,6 @@ export default {
         'Traynor, V. (2015). <em>Pruebas de usabilidad con Verónica Traynor</em>.',
       tipo: 'Video',
       link: 'https://youtu.be/uh4sZmQiRr4',
-    },
-    {
-      tema: '6. Modelos de Prueba de Usabilidad',
-      referencia: 'Lorés, J. et al. (2006). <em>Evaluación</em>.',
-      tipo: 'PDF',
-      link: 'https://aipo.es/libro/pdf/04Evalua.pdf',
     },
   ],
   glosario: [
@@ -239,13 +234,10 @@ export default {
         'http://agilismoatwork.blogspot.com/2013/06/desarrollo-iterativo-versus-incremental.html',
     },
     {
-      referencia: 'Lorés, J., et al. (2006). <em>Evaluación</em>.',
-      link: 'https://aipo.es/libro/pdf/04Evalua.pdf',
-    },
-    {
       referencia:
         'Pérez, O. A. (2011). <em>Cuatro enfoques metodológicos para el desarrollo de Software RUP – MSF – XP - SCRUM.</em>',
-      link: 'https://core.ac.uk/download/pdf/230219821.pdf',
+      link:
+        'https://revistas.uniminuto.edu/index.php/Inventum/article/view/9/9',
     },
     {
       referencia:

@@ -484,18 +484,6 @@
     
     p.mt-5(data-aos="fade-up") Los formatos diligenciados por los participantes son analizados y verificados por el equipo desarrollador para proceder a la corrección de las fallas presentados y volver a realizar la prueba que comprueben las mejoras en la funcionalidad del producto. 
 
-    .row.mt-5.p-4.col-lg-10.m-auto(style="background-color:#C0EBF6;border-radius:10px;")
-      .col-md-3.col-lg-1.d-flex.justify-content-center.mb-4.mb-lg-0(style="place-self:center;")
-        figure.m-auto.d-flex.justify-content-center
-          img(src="@/assets/curso/tema3/35.svg" data-aos="fade-left" style="max-width:100px;display:inline;")
-      .col-lg-8.col-md-6.mb-4.mb-lg-0(style="place-self:center;")
-        h3(data-aos="fade-up") Lectura de consulta
-        p.mb-0(data-aos="fade-up") Si se quiere profundizar en las demás técnicas de cada modelo se recomienda la siguiente lectura complementaria:
-      .col-lg-3.col-md-3.text-center(style="place-self:center;")
-        a.boton.color-acento-botones(href="https://aipo.es/libro/pdf/04Evalua.pdf" target="_blank")
-          span Descargar
-          i.fas.fa-download
-
 
 
 </template>
