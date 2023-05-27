@@ -218,6 +218,19 @@
       figure
         img(src='@/assets/curso/tema1/14.svg')
       p.mb-0.mt-1 #[em Análisis de componente]
+    
+    .row.mt-5.p-4.col-lg-10.m-auto(style="background-color:#C0EBF6;border-radius:10px;")
+      .col-md-3.col-lg-1.d-flex.justify-content-center.mb-4.mb-lg-0(style="place-self:center;")
+        figure.m-auto.d-flex.justify-content-center
+          img(src="@/assets/curso/tema1/16.svg" data-aos="fade-left" style="max-width:100px;display:inline;")
+      .col-lg-8.col-md-6.mb-4.mb-lg-0(style="place-self:center;")
+        h3(data-aos="fade-up") Lecturas de consulta
+        h4(data-aos="fade-up") Unity Test Tools
+        p.mb-0(data-aos="fade-up") Para una mayor comprensión y profundización de las herramientas de testeo, se recomienda la siguiente lectura complementaria:
+      .col-lg-3.col-md-3.text-center(style="place-self:center;")
+        a.boton.color-acento-botones(href="https://unity3dtutorial.wordpress.com/2015/09/28/unity-test-tools/" target="_blank")
+          span Enlace web
+          i.fas.fa-link
 
 
 

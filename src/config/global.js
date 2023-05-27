@@ -52,8 +52,13 @@ export default {
           },
           {
             numero: '2.2',
-            titulo: 'Scrum',
+            titulo: 'Programación extrema - XP',
             hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Scrum',
+            hash: 't_2_3',
           },
         ],
       },

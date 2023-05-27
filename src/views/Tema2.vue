@@ -157,12 +157,403 @@
     
     p(data-aos="fade-up") El Proceso Unificado Racional – PUR es una metodología de desarrollo de software que se basa en componentes e interfaces para analizar, diseñar, codificar, implementar, probar y documentar sistemas orientados a objetos y se vale para ello de un Lenguaje Unificado de Modelado - UML.
 
+    .row.mt-5
+      .col-auto.pe-0(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema1/5.svg" data-aos="fade-right")
+      .col(style="place-self:center;")
+        h3.mb-0(data-aos="fade-right") Elementos del PUR
+    
+    .row.mt-5
+      .col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2/14.svg')
+          .tarjeta.color-primario(style="background-color:#CCEFF8;")
+            .p-4
+              h5.mt-3(data-aos="fade-up" style="color:#12263F;") Equipo de trabajo
+              p.mt-3(data-aos="fade-up" style="color:#12263F;") Define el rol de las personas que están a cargo del desarrollo del proyecto.
+      .col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2/15.svg')
+          .tarjeta.color-primario(style="background-color:#CCEFF8;")
+            .p-4
+              h5.mt-3(data-aos="fade-up" style="color:#12263F;") Actividades
+              p.mt-3(data-aos="fade-up" style="color:#12263F;") Son las tareas que realizan los miembros del equipo con los elementos del proyecto.
+      .col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2/16.svg')
+          .tarjeta.color-primario(style="background-color:#CCEFF8;")
+            .p-4
+              h5.mt-3(data-aos="fade-up" style="color:#12263F;") Artefactos
+              p.mt-3(data-aos="fade-up" style="color:#12263F;") Son los productos tangibles que se obtienen de cada fase e iteración del proyecto.
+      .col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2/17.svg')
+          .tarjeta.color-primario(style="background-color:#CCEFF8;")
+            .p-4
+              h5.mt-3(data-aos="fade-up" style="color:#12263F;") Flujo de actividades
+              p.mt-3(data-aos="fade-up" style="color:#12263F;") Secuencia de actividades que se llevan a cabo para la obtención de un artefacto.
+    
+    .row.mt-5
+      .col-auto.pe-0(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema1/5.svg" data-aos="fade-right")
+      .col(style="place-self:center;") 
+        h3.mb-0(data-aos="fade-right") Fases PUR
+    
+    p.mt-4(data-aos="fade-up") Fases para el desarrollo de un videojuego en el Proceso Unificado Racional. Basado en Gustavo Torossi (s. f.).
+
+    .col-lg-8.m-auto.mt-5
+      PasosA.color-acento-contenido(tipo="n")
+        .row.col-lg-10.m-auto
+          .row.p-1.m-0(style="background-color:#8979F3;border-radius:10px;")
+            .col-auto(style="place-self:center;")
+              figure
+                img(src="@/assets/curso/tema2/18.svg")
+            .col(style="place-self:center;")
+              h5.mb-0.text-white(data-aos="fade-up") Alcances y objetivos
+          h5.mt-4(data-aos="fade-up") Inicio
+          p.mt-2(data-aos="fade-up") En esta fase se define el alcance y los objetivos del proyecto de videojuego, determinando los requerimientos de los usuarios, el conjunto de funcionalidades, la estructura preliminar del diseño con la cantidad de elementos, personajes, características e iteraciones, se identifican los riesgos de mayor importancia y los costos del desarrollo.
+        .row.col-lg-10.m-auto.text-start
+          .row.p-1.m-0(style="background-color:#8979F3;border-radius:10px;")
+            .col-auto(style="place-self:center;")
+              figure
+                img(src="@/assets/curso/tema2/19.svg")
+            .col(style="place-self:center;")
+              h5.mb-0.text-white(data-aos="fade-up") Arquitectura
+          h5.mt-4(data-aos="fade-up") Elaboración
+          p.mt-2(data-aos="fade-up") En esta fase se planifica el prototipo del videojuego detallando los casos de uso es decir las funciones que va a tener, se mitigan los riesgos de mayor importancia, se planean las iteraciones del proyecto y las interfaces correspondientes a cada una de las escenas especificando los objetos, personajes, efectos, iluminaciones y animaciones.
+        .row.col-lg-10.m-auto.text-start
+          .row.p-1.m-0(style="background-color:#8979F3;border-radius:10px;")
+            .col-auto(style="place-self:center;")
+              figure
+                img(src="@/assets/curso/tema2/20.svg")
+            .col(style="place-self:center;")
+              h5.mb-0.text-white(data-aos="fade-up") Versión 1
+          h5.mt-4(data-aos="fade-up") Construcción
+          p.mt-2(data-aos="fade-up") En esta fase se llevan a cabo todas las iteraciones para el desarrollo del videojuego, teniendo en cuenta los requerimientos y el diseño.
+          LineaTiempoD.color-secundario.mt-3
+            p(numero="1" titulo="Requerimientos.")
+            p(numero="2" titulo="Análisis y Diseño.")
+            p(numero="3" titulo="Codificación.") Se construyen las líneas de código necesarias en los componentes y las funciones que se planificaron.
+            p(numero="4" titulo="Prueba.") Se realizan pruebas con los usuarios y se configuran controles sobre los productos entregables, los cambios sobre los mismos y las versiones que se vayan obteniendo.
+            p(numero="5" titulo="Gestión del proyecto.") Se gestionan los riesgos y las restricciones, culminando con una versión del producto.
+            p(numero="6" titulo="Gestión y configuración de cambios.")
+            p(numero="7" titulo="Entregas incrementales.") Cada entrega se documenta hasta completar un manual.
+            p(numero="8" titulo="Iteración.")
+        .row.col-lg-10.m-auto.text-start
+          .row.p-1.m-0(style="background-color:#8979F3;border-radius:10px;")
+            .col-auto(style="place-self:center;")
+              figure
+                img(src="@/assets/curso/tema2/21.svg")
+            .col(style="place-self:center;")
+              h5.mb-0.text-white(data-aos="fade-up") Versión Final
+          h5.mt-4(data-aos="fade-up") Transición
+          p.mt-2(data-aos="fade-up") Aquí el producto se convierte en la primera versión y el usuario está usando de manera activa el videojuego. El equipo desarrollador puede extender las funciones de acuerdo con el feedback recibido y ajustar los elementos y características, es decir también se llevan a cabo iteraciones pero con el producto en uso hasta alcanzar la versión final.
+    
+    .row.mt-5
+      .col-auto.pe-0(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema1/5.svg" data-aos="fade-right")
+      .col(style="place-self:center;") 
+        h3.mb-0(data-aos="fade-right") Características PUR
+    
+    .row.mt-5
+      .col-lg.mb-4.mb-lg-0
+        .h-100(style="border:3px #8979F3 solid;border-radius:20px;")
+          figure
+            img(src="@/assets/curso/tema2/22.png")
+          .text-center.mt-3.p-4
+            h5(data-aos="fade-up") Dirigido por casos de uso
+            p.mt-3(data-aos="fade-up") Se refiere a que dentro del modelo se definen claramente las funcionalidades que el usuario espera encontrar en el producto para poder hacer uso de él.
+      .col-lg.mb-4.mb-lg-0
+        .h-100(style="border:3px #F1BF5E solid;border-radius:20px;")
+          figure
+            img(src="@/assets/curso/tema2/23.png")
+          .text-center.mt-3.p-4
+            h5(data-aos="fade-up") Centrado en la arquitectura
+            p.mt-3(data-aos="fade-up") Se define la estructura completa del proyecto y los componentes principales que le dan la lógica de funcionamiento y ejecución.
+      .col-lg.mb-4.mb-lg-0
+        .h-100(style="border:3px #04B1D9 solid;border-radius:20px;")
+          figure
+            img(src="@/assets/curso/tema2/24.png")
+          .text-center.mt-3.p-4
+            h5(data-aos="fade-up") Iterativo incremental
+            p.mt-3(data-aos="fade-up") En cada fase del proyecto se definen los flujos de actividades que van constituyendo las partes del producto y sus funciones.
+    
+    .row.mt-5
+      .col-auto.pe-0(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema1/5.svg" data-aos="fade-right")
+      .col(style="place-self:center;") 
+        h3.mb-0(data-aos="fade-right") Ejemplo de PUR
+    
+    p.mt-5(data-aos="fade-up") El equipo de diseño de un videojuego debe desarrollar el caso de uso: #[strong ingresar al videojuego, jugar y salir].
+    p.mt-4(data-aos="fade-up") Se deben codificar las funciones que debe realizar el sistema para que el jugador pueda ingresar, empezar a jugar y salir del juego. En la figura se ilustra el diagrama con los requerimientos funcionales.
+    p.mt-4(data-aos="fade-up") También se pueden observar las funciones que debe desarrollar el programador para que un usuario pueda empezar a usar el juego que se propone. 
+    p.mt-4(data-aos="fade-up") Estas funciones hacen parte de una iteración que consiste en: #[strong registro de usuario - carga escenario principal - salir] que conllevan la elaboración de una serie de tareas a codificar: #[strong solicitud de datos al usuario, validación de los datos, creación de alias, ingreso del usuario, activación de las funciones del videojuego, proceso de desactivación y salida del videojuego.]
+    p.mt-4(data-aos="fade-up") #[strong Las funciones por codificar son:]
+
+    TabsB.color-acento-contenido.mt-5
+      .py-4.py-md-5(titulo="Menú" :icono="require('@/assets/curso/tema2/25.svg')")
+        .row
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Menú
+            p El usuario puede ver las diferentes opciones para explorar los componentes del videojuego, con lo cual puede informarse acerca de él. Debe hacer clic en registrarse para ingresar.
+          .col-lg-6
+            figure
+              img(src='@/assets/curso/tema2/30.png')
+      .py-4.py-md-5(titulo="Ingresar" :icono="require('@/assets/curso/tema2/26.svg')")
+        .row
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Ingresar
+            p El jugador debe ingresar un alias para identificarse en el juego, el cual es validado por el sistema para determinar si ya existe o es nuevo.
+          .col-lg-6
+            figure
+              img(src='@/assets/curso/tema2/31.png')
+      .py-4.py-md-5(titulo="Jugador" :icono="require('@/assets/curso/tema2/27.svg')")
+        .row
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Jugador
+            p El jugador debe escribir el nombre que ha validado el sistema para que se habiliten todas las funciones que puede utilizar.
+          .col-lg-6
+            figure
+              img(src='@/assets/curso/tema2/32.png')
+      .py-4.py-md-5(titulo="Cargar escenario" :icono="require('@/assets/curso/tema2/28.svg')")
+        .row
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Cargar escenario
+            p El sistema carga el escenario principal para que el jugador comience a demostrar sus habilidades y controla que este ascienda de nivel o se quede en el que está.
+          .col-lg-6
+            figure
+              img(src='@/assets/curso/tema2/33.png')
+      .py-4.py-md-5(titulo="Salir" :icono="require('@/assets/curso/tema2/29.svg')")
+        .row
+          .col-lg-6.mb-4.mb-lg-0
+            h4 Salir
+            p El sistema controla la salida del jugador por pérdida de la partida o por que ha ganado, en ningún momento es igual a cerrar el juego, ya que si es así cuando ingrese lo dejará en el mismo punto.
+          .col-lg-6
+            figure
+              img(src='@/assets/curso/tema2/34.png')
+
+    p.mt-5(data-aos="fade-up") El desarrollo de estas funciones corresponde a una iteración completa que, solo cuando esté terminada, se solicita la prueba a los usuarios para poder seguir con el siguiente caso de uso.
+
     Separador.mt-5
 
     .titulo-segundo
-      h2#t_2_2 2.2 Scrum
+      h2#t_2_2 2.2 Programación extrema - XP
+    
+    p(data-aos="fade-up") La programación extrema - XP o #[em Extreme Programming] es una metodología de desarrollo de software que involucra a los usuarios desde el comienzo del proyecto hasta que finaliza siendo esta su mayor fortaleza, ya que asegura un desarrollo a la medida de acuerdo con las pruebas que estos van realizando a los productos entregados.
+    p.mt-4(ata-aos="fade-up") Durante el desarrollo del proyecto se pueden producir muchos cambios y esto garantiza una mayor aproximación del producto a lo que espera el usuario de él. Al igual que PUR posee elementos, trabaja en diferentes fases para lograr los resultados y tiene características que lo diferencian del anterior modelo.
+
+    .row.mt-5
+      .col-auto.pe-0(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema1/5.svg" data-aos="fade-right")
+      .col(style="place-self:center;") 
+        h3.mb-0(data-aos="fade-right") Elementos XP
+    
+    .row.mt-5
+      .col-lg.mb-4.mb-lg-0
+        .h-100.p-4.pb-5.pt-0(style="border:3px #04B1D9 solid;border-radius:20px;")
+          .p-1.pt-5.pb-2(style="background-color:#04B1D9;width:fit-content;")
+            figure
+              img(src="@/assets/curso/tema2/35.svg" data-aos="zoom-in-up" style="max-width:100px;")
+          h5.mt-3(data-aos="fade-up") Equipo de trabajo
+          p.mt-3(data-aos="fade-up") Los diferentes roles son: #[strong desarrolladores, usuarios, #[em testeadores] y personal de seguimiento].
+      .col-lg.mb-4.mb-lg-0
+        .h-100.p-4.pb-5.pt-0(style="border:3px #F1BF5E solid;border-radius:20px;")
+          .p-1.pt-5.pb-2(style="background-color:#F1BF5E;width:fit-content;")
+            figure
+              img(src="@/assets/curso/tema2/36.svg" data-aos="zoom-in-up" style="max-width:100px;")
+          h5.mt-3(data-aos="fade-up") Actividades
+          p.mt-3(data-aos="fade-up") Son las tareas que hacen parte de la planificación del proyecto, agrupadas por iteraciones.
+      .col-lg.mb-4.mb-lg-0
+        .h-100.p-4.pb-5.pt-0(style="border:3px #8979F3 solid;border-radius:20px;")
+          .p-1.pt-5.pb-2(style="background-color:#8979F3;width:fit-content;")
+            figure
+              img(src="@/assets/curso/tema2/37.svg" data-aos="zoom-in-up" style="max-width:100px;")
+          h5.mt-3(data-aos="fade-up") Artefactos
+          p.mt-3(data-aos="fade-up") Están representadas en las tarjetas de control o fichas que describen los elementos que se elaborarán como producto entregable.
+      .col-lg.mb-4.mb-lg-0
+        .h-100.p-4.pb-5.pt-0(style="border:3px #05DBF3 solid;border-radius:20px;")
+          .p-1.pt-5.pb-2(style="background-color:#05DBF3;width:fit-content;")
+            figure
+              img(src="@/assets/curso/tema2/38.svg" data-aos="zoom-in-up" style="max-width:100px;")
+          h5.mt-3(data-aos="fade-up") Flujo de actividades
+          p.mt-3(data-aos="fade-up") Son las tareas que se van a desarrollar en secuencia para la obtención de un producto entregable.
+      .col-lg.mb-4.mb-lg-0
+        .h-100.p-4.pb-5.pt-0(style="border:3px #F1BF5E solid;border-radius:20px;")
+          .p-1.pt-5.pb-2(style="background-color:#F1BF5E;width:fit-content;")
+            figure
+              img(src="@/assets/curso/tema2/39.svg" data-aos="zoom-in-up" style="max-width:100px;")
+          h5.mt-3(data-aos="fade-up") Fases
+          p.mt-3(data-aos="fade-up") Corresponde a las diferentes etapas que se deben llevar a cabo para obtener el producto final.
+    
+    .row.mt-5
+      .col-auto.pe-0(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema1/5.svg" data-aos="fade-right")
+      .col(style="place-self:center;") 
+        h3.mb-0(data-aos="fade-right") Fases XP
+    
+    h5.mt-5(data-aos="fade-up") Fases para el desarrollo de un videojuego en el modelo de Programación Extrema XP.
+    p.mt-4(data-aos="fade-up") Veamos en qué consisten cada una de las fases…
+
+    ImagenInfografica.color-acento-botones.mt-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/tema2/40.svg' data-aos="zoom-in-up")
+      .tarjeta.color-acento-botones.p-3(x="11%" y="98%" numero="+" style="background-color:#D4F7FF;")
+        .h5.mb-2 Planificación
+        p Es la etapa donde se recogen los requisitos de los usuarios en cuanto a las funcionalidades que espera que tenga el producto con el que va a interactuar. El usuario establece las prioridades de cada requerimiento para que el equipo de ejecución planifique las iteraciones, los tiempos de programación y los costos de desarrollo.
+      .tarjeta.color-acento-botones.p-3(x="31%" y="98%" numero="+" style="background-color:#D4F7FF;")
+        .h5.mb-2 Diseño
+        p En esta etapa se define la estructura del proyecto con los elementos y componentes que debe tener para cumplir con los requerimientos, se elaboran las tarjetas que describen cada objeto que se pondrá en el producto, se realiza un glosario de términos especificando los nombres de los componentes.
+        p.mb-0 También se mitigan los riesgos, se elaboran las pruebas de unidad con las que los desarrolladores verifican el funcionamiento del código y las pruebas de aceptación realizadas por los usuarios para verificar si, al final de una iteración, se cumplió con la funcionalidad del producto. Los entregables de esta etapa son el prototipo y las pruebas. 
+      .tarjeta.color-acento-botones.p-3(x="51%" y="98%" numero="+" style="background-color:#D4F7FF;")
+        .h5.mb-2 Codificación
+        p Es la fase de desarrollo del producto que se debe realizar por parejas para garantizar que se realice en un código universal y que cualquier persona pueda continuar el trabajo o hacer una modificación.
+        p El resultado de esta etapa es la integración de los elementos creados en el diseño e igualmente la codificación de las pruebas (de unidad y aceptación) para verificar el cumplimiento de los estándares de programación y los requisitos de funcionalidad planteados en las anteriores etapas. 
+      .tarjeta.color-acento-botones.p-3(x="71%" y="98%" numero="+" style="background-color:#D4F7FF;")
+        .h5.mb-2 Prueba
+        p Se elaboran dos tipos de pruebas: las unitarias y las de aceptación. Las primeras son diseñadas y aplicadas por los desarrolladores para verificar el funcionamiento del sistema con las líneas de código y las segundas son diseñadas y aplicadas por los usuarios para determinar el cumplimiento incremental de las funcionalidades que se van implementado en el proyecto y que son verificadas con datos reales.
+      .tarjeta.color-acento-botones.p-3(x="91%" y="98%" numero="+" style="background-color:#D4F7FF;")
+        .h5.mb-2 Lanzamiento
+        p Corresponde al control de las versiones que se obtienen en el proceso de elaboración del producto y cuando se hacen modificaciones de este. Estas versiones se deben almacenar en un repositorio que conserve los históricos de lo que ha acontecido con el producto para gestionar las actualizaciones que se han llevado a cabo en una línea de tiempo.
+
+    .row.mt-5
+      .col-auto.pe-0(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema1/5.svg" data-aos="fade-right")
+      .col(style="place-self:center;") 
+        h3.mb-0(data-aos="fade-right") Características de EX
+    
+    .row.mt-5
+      .col-lg.col-md-6.mb-4.mb-lg-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.p-4.d-flex.align-items-center.flex-wrap.align-content-center(style="background-color:#04B1D9;")
+              h5(style="color:initial;") Dirigido por historias de usuario
+              p.mt-3(style="color:initial;") Se refiere a los requerimientos de los usuarios que se expresan como historias, de hecho es él quien los elabora, por eso hay una colaboración activa por parte de ellos en todas las fases del proyecto.
+            .tarjeta-flip__contenido
+              figure
+                img(src="@/assets/curso/tema2/41.png")
+      .col-lg.col-md-6.mb-4.mb-lg-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.p-4.d-flex.align-items-center.flex-wrap.align-content-center(style="background-color:#F1BF5E;")
+              h5(style="color:initial;") Diseño sencillo
+              p.mt-3(style="color:initial;") Se realiza el diseño necesario para satisfacer las necesidades actuales y no las futuras.
+            .tarjeta-flip__contenido
+              figure
+                img(src="@/assets/curso/tema2/42.png")
+      .col-lg.col-md-6.mb-4.mb-lg-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.p-4.d-flex.align-items-center.flex-wrap.align-content-center(style="background-color:#8979F3;")
+              h5(style="color:initial;") Iterativo incremental
+              p.mt-3(style="color:initial;") Se realizan iteraciones o entregas pequeñas siendo la primera aquella que le proporcione la funcionalidad mínima al sistema, se van añadiendo paulatinamente funciones que le sumen a la anterior.
+            .tarjeta-flip__contenido
+              figure
+                img(src="@/assets/curso/tema2/43.png")
+      .col-lg.col-md-6.mb-4.mb-lg-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.p-4.d-flex.align-items-center.flex-wrap.align-content-center(style="background-color:#05DBF3;")
+              h5(style="color:initial;") Refactorización
+              p.mt-3(style="color:initial;") Consiste en eliminar las líneas de código que pueden repetirse a lo largo del desarrollo del producto. Lo que se hace es reutilizar los fragmentos de programas que realicen procesos que se pueden aplicar en otras funciones.
+            .tarjeta-flip__contenido
+              figure
+                img(src="@/assets/curso/tema2/44.png")
+    
+    .row.mt-5
+      .col-auto.pe-0(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema1/5.svg" data-aos="fade-right")
+      .col(style="place-self:center;") 
+        h3.mb-0(data-aos="fade-right") Ejemplo de PUR
+    
+    p.mt-5(data-aos="fade-up") El siguiente es un ejemplo de las iteraciones que se pueden obtener de acuerdo con las historias de usuario para ingresar a un videojuego, empezar a jugar y salir. Obsérvese que el usuario ha diseñado tres (3) historias que debe codificar el equipo desarrollador en la interfaz o pantalla de inicio.
+    p.mt-4(data-aos="fade-up") Para los programadores cada historia que ha diseñado el usuario es una iteración que contiene líneas de código por desarrollar y es probada por el usuario inmediatamente se construye, luego utilizando XP se tienen tres (3) iteraciones a diferencia del proceso unificado que ha reunido el proceso en una sola iteración. 
+    p.mt-4(data-aos="fade-up") El siguiente formato es una ficha que han diseñado desarrollador y usuario para consignar la historia y tanto el uno como el otro se deben diligenciar conjuntamente.
+
+    .tarjeta.pt-5.pb-5.mt-5(style="background-color:#F2F0FD;border:1px #707070 solid;")
+      SlyderF(columnas="col-12")
+        .row
+          .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
+            p #[strong La historia de usuario # 1 de la interfaz (pantalla) de inicio del juego;] corresponde al requerimiento de poder entrar al juego y hacer el registro. La estimación es el grado de dificultad para el desarrollador la cual puede determinar en una escala de 1 a 10, siendo 1 la menor dificultad. El valor es la prioridad o grado de importancia que le da el usuario dentro de las funciones del juego.
+          .col-lg-8(style="place-self:center;")
+            .tabla-a.color-acento-contenido(style="min-width:100%;")
+              table(style="min-width:100%;")
+                thead
+                  tr
+                    th.text-center Historia de usuario # 1
+                    th.text-center(colspan="2") Pantalla de inicio
+                tbody
+                  tr(style="background-color:#fff;")
+                    td.p-3.text-center(colspan="3") Como jugador quiero entrar al juego y poder registrarme.
+                  tr(style="background-color:#fff;")
+                    td.p-3.text-center.fw-bold Estimación
+                    td.p-3.text-center.fw-bold Valor
+                    td.p-3.text-center.fw-bold Condiciones de satisfacción
+                  tr(style="background-color:#fff;")
+                    td.p-3.text-center 1
+                    td.p-3.text-center 10
+                    td.p-3.text-center Antes de iniciar el juego quiero que aparezca una pantalla con el nombre del juego y unos botones en la parte superior para registrarme.
+        .row
+          .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
+            p #[strong La historia de usuario # 2 de la interfaz (pantalla) de inicio del juego;] corresponde al requerimiento de entrar al juego con un alias que el sistema debe verificar para ser usado, de lo contrario buscar otro. El grado de dificultad para el desarrollador es superior al mínimo y la prioridad para el usuario es la máxima.
+          .col-lg-8(style="place-self:center;")
+            .tabla-a.color-acento-contenido(style="min-width:100%;")
+              table(style="min-width:100%;")
+                thead
+                  tr
+                    th.text-center Historia de usuario # 2
+                    th.text-center(colspan="2") Pantalla de inicio
+                tbody
+                  tr(style="background-color:#fff;")
+                    td.p-3.text-center(colspan="3") Como jugador quiero que al ingresar con mi alias se habiliten todas las funciones del juego.
+                  tr(style="background-color:#fff;")
+                    td.p-3.text-center.fw-bold Estimación
+                    td.p-3.text-center.fw-bold Valor
+                    td.p-3.text-center.fw-bold Condiciones de satisfacción
+                  tr(style="background-color:#fff;")
+                    td.p-3.text-center 4
+                    td.p-3.text-center 10
+                    td.p-3.text-center Que el juego habilite todas las entradas a las diferentes acciones que puedo llevar a cabo en el juego.
+        .row
+          .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
+            p La historia de usuario # 3 de la interfaz (pantalla) de inicio del juego corresponde al requerimiento de salir sin bloquear el juego o afectar funciones. El grado de dificultad para el desarrollador es considerable puesto que es superior a la mitad de la escala, ya que debe construir líneas de programación que eviten que el programa presente un bloqueo de sus funciones y que pueda continuar donde estaba en el momento de cerrarlo, aunque el jugador cierre la ventana sin utilizar la opción salir. Para el jugador no es tan prioritaria esta opción, puesto que le ha dado un valor de “6”.
+          .col-lg-8(style="place-self:center;")
+            .tabla-a.color-acento-contenido(style="min-width:100%;")
+              table(style="min-width:100%;")
+                thead
+                  tr
+                    th.text-center Historia de usuario # 3
+                    th.text-center(colspan="2") Pantalla de inicio
+                tbody
+                  tr(style="background-color:#fff;")
+                    td.p-3.text-center(colspan="3") Como jugador quiero salir del juego en cualquier momento y poder continuar donde esta cuando entre.
+                  tr(style="background-color:#fff;")
+                    td.p-3.text-center.fw-bold Estimación
+                    td.p-3.text-center.fw-bold Valor
+                    td.p-3.text-center.fw-bold Condiciones de satisfacción
+                  tr(style="background-color:#fff;")
+                    td.p-3.text-center 6
+                    td.p-3.text-center 6
+                    td.p-3.text-center Que el juego presente la opción de salir sin tener que cerrar la ventana y sin importar que esté haciendo. Volver a  ingresar donde lo había dejado. 
+
+
+
+    Separador.mt-5
+
+    .titulo-segundo
+      h2#t_2_3 2.3 Scrum
     
     p(data-aos="fade-up") Es una metodología de trabajo en equipo para el desarrollo de un proyecto. El término fue extraído del deporte Rugby en el que un número de jugadores de cada equipo hace una formación fija para entrar a disputar la tenencia del balón y cada vez que este sale del juego se hace un nuevo Scrum o formación. Esta metodología fue desarrollada por Nonaka y Takeuchi en 1986 para agilizar el desarrollo de productos comerciales en cualquier sector de la economía. Es aplicable en la industria tecnológica para el desarrollo de software de diferentes categorías entre ellas los videojuegos.
+    p.mt-4(data-aos="fade-up") Esta metodología está enfocada en el trabajo organizado de manera colaborativa y en lo que cada persona puede aportar al equipo para cumplir los objetivos. Implementa buenas prácticas para la obtención rápida de resultados, establece las entregas incrementales acorde con los requisitos, se miden los tiempos y se observa la retrospectiva de trabajo para mejorar las actividades que impidan alcanzar la mayor productividad.  
 
     p.mt-5.fw-bold(data-aos="fade-up") Elementos Scrum:
         
@@ -185,9 +576,6 @@
       .col(style="place-self:center;")
         h3.mb-0(data-aos="fade-right") Fases para el desarrollo de un videojuego en el modelo Scrum
     
-    p.mt-4(data-aos="fade-up") Este componente o asset permite realizar un testeo o evaluación rápida de las funcionalidades que se van incorporando al juego. Es una herramienta que se debe integrar desde la opción de Asset Store del menú de Unity ya que una vez se instala el programa no es importada de la nube automáticamente.
-    p.mt-4(data-aos="fade-up") Pasos para incorporar esta herramienta dentro del programa de Unity:
-
     .row.mt-5
       .col-auto.pe-0(style="place-self:center;")
         figure
@@ -342,7 +730,7 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    indicadorTarjetaFlip: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -369,4 +757,30 @@ export default {
   color: #fff !important
 .tabs-a__tab
   background-color: #E8E8E8
+.pasos-a.color-acento-contenido .pasos-a__circle div
+  color: #fff
+.linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+  background-color: #3C3FA7
+  color: white
+  font-weight: bold
+  border-radius: 0px
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #F1BF5E
+  color: #12263F
+  font-weight: bold
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #E5F7FB
+.linea-tiempo-d__item__content__title span
+  font-weight: bold
+.tabs-b__tab
+  border-bottom: 0px
+  background-color: #E5F7FB
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  background-color: #fff
+.tabs-b__tab img
+  filter: grayscale(1)
+.tabs-b__tab.tabs-b__tab--active img
+  filter: grayscale(0)
+.slyder-f__btn i
+  color: #F1BF5E
 </style>
