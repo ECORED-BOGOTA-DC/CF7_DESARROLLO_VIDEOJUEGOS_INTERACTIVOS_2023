@@ -63,12 +63,12 @@
     .titulo-segundo
       h2#t_1_1 1.1 Herramienta de testeo en Unity
     
-    p(data-aos="fade-up") El software de videojuegos de Unity posee herramientas que pueden ayudar a testear las iteraciones para detectar los errores que se producen cuando se están ejecutando o desarrollando tareas en el videojuego, ya sea cuando se están escribiendo líneas de código o cuando se están llevando a cabo acciones con el menú para crear las escenas y mecánicas del videojuego.
+    p(data-aos="fade-up") El #[em software] de videojuegos de Unity posee herramientas que pueden ayudar a testear las iteraciones para detectar los errores que se producen cuando se están ejecutando o desarrollando tareas en el videojuego, ya sea cuando se están escribiendo líneas de código o cuando se están llevando a cabo acciones con el menú para crear las escenas y mecánicas del videojuego.
 
     figure.mt-4
       img(src="@/assets/curso/tema1/4.png" data-aos="zoom-in-up")
 
-    p.mt-5(data-aos="fade-up") Existen testeos rápidos que están incorporados en el software cuando se instala. Al conocer los errores que se producen en las iteraciones, el desarrollador puede tomar la decisión adecuada para dar solución; por ejemplo, corregir la sintaxis de programación necesaria o importar los archivos (asset) de formatos permitidos para incorporar en la escena.
+    p.mt-5(data-aos="fade-up") Existen testeos rápidos que están incorporados en el #[em software] cuando se instala. Al conocer los errores que se producen en las iteraciones, el desarrollador puede tomar la decisión adecuada para dar solución; por ejemplo, corregir la sintaxis de programación necesaria o importar los archivos (#[em asset]) de formatos permitidos para incorporar en la escena.
 
     .row.mt-5
       .col-auto.pe-0(style="place-self:center;")
@@ -95,14 +95,14 @@
           p.mb-0 Se está sugiriendo que se están copiando archivos con una ruta única generada no válida.
 
 
-    p.mt-5(data-aos="fade-up") Esta herramienta permite identificar los fallos está contenida en el software, es de rápido testeo para probar el funcionamiento del juego no solo para el desarrollador, sino para el usuario, puesto que informa exactamente qué está sucediendo cuando se ejecutan sus diferentes mecánicas.
+    p.mt-5(data-aos="fade-up") Esta herramienta permite identificar los fallos está contenida en el #[em software], es de rápido testeo para probar el funcionamiento del juego no solo para el desarrollador, sino para el usuario, puesto que informa exactamente qué está sucediendo cuando se ejecutan sus diferentes mecánicas.
 
     Separador.mt-5
 
     .titulo-segundo
       h2#t_1_2 1.2 Herramienta de testeo incorporada a Unity
     
-    p(data-aos="fae-up") Existen herramientas de testeo que se pueden importar al software y que en el momento de la instalación no son incorporadas. Las hay de descarga gratuita y también de pago que se incorporan al software en forma de assets o componentes que se integran en el menú del programa, para ser utilizadas en la identificación de incoherencias y fallos presentados en el desarrollo o rodaje de las escenas del videojuego. Cabe anotar que no se necesita ser un experto programador para utilizar estos componentes, puesto que son de fácil manejo y de ellos se encuentra documentación que explica la dinámica de uso.
+    p(data-aos="fae-up") Existen herramientas de testeo que se pueden importar al #[em software] y que en el momento de la instalación no son incorporadas. Las hay de descarga gratuita y también de pago que se incorporan al #[em software] en forma de #[em assets] o componentes que se integran en el menú del programa, para ser utilizadas en la identificación de incoherencias y fallos presentados en el desarrollo o rodaje de las escenas del videojuego. Cabe anotar que no se necesita ser un experto programador para utilizar estos componentes, puesto que son de fácil manejo y de ellos se encuentra documentación que explica la dinámica de uso.
 
     .row.mt-5
       .col-auto.pe-0(style="place-self:center;")
@@ -119,7 +119,7 @@
       PasosB.color-acento-botones
         .row(titulo="")
           .col-lg-6.mb-4.mb-lg-0
-            p Hacer clic en el menú Window->Asset Store  y el programa se direcciona a la URL #[a(href="https://www.assetstore.unity3d.com/en/#!/content/13802" target="_blank") https://www.assetstore.unity3d.com/en/#!/content/13802].
+            p Hacer clic en el menú Window->#[em Asset Store]  y el programa se direcciona a la URL #[a(href="https://www.assetstore.unity3d.com/en/#!/content/13802" target="_blank") https://www.assetstore.unity3d.com/en/#!/content/13802].
             p.mt-4 En la ventana de la escena aparece la página de #[em UnityAssetStore] y en el buscador se debe escribir “#[em Unity Test Tools]”.
             a.boton.color-acento-botones.mt-3(href="#" @click.prevent="modal1 = true")
               span Ampliar imagen
@@ -130,7 +130,7 @@
             p.mb-0.mt-1 #[em Asset Store]
         .row(titulo="")
           .col-lg-6.mb-4.mb-lg-0
-            p Luego aparecen los asset gratuitos y seleccionar uno de ellos, en este caso se seleccionará la herramienta BDD Test:
+            p Luego aparecen los #[em asset] gratuitos y seleccionar uno de ellos, en este caso se seleccionará la herramienta BDD Test:
             a.boton.color-acento-botones.mt-3(href="#" @click.prevent="modal2 = true")
               span Ampliar imagen
               i.fas.fa-search
@@ -181,7 +181,7 @@
         .row(titulo="")
           .col-lg-6.mb-4.mb-lg-0
             p Inmediatamente se activó la herramienta de testeo y mostró el siguiente mensaje en la ventana de la escena: #[em All Compiller errors have to be fixed before you can enter play mode].
-            p.mt-4 La acción no se pudo realizar ya que la escena se encontraba en modo de reproducción y el objeto no se puede compilar o procesar a nivel de software. Los botones encerrados en el círculo son los que indican el modo #[em play] o modo pausa, en el momento de copiar el elemento se encontraba en modo #[em play].
+            p.mt-4 La acción no se pudo realizar ya que la escena se encontraba en modo de reproducción y el objeto no se puede compilar o procesar a nivel de #[em software]. Los botones encerrados en el círculo son los que indican el modo #[em play] o modo pausa, en el momento de copiar el elemento se encontraba en modo #[em play].
             a.boton.color-acento-botones.mt-3(href="#" @click.prevent="modal7 = true")
               span Ampliar imagen
               i.fas.fa-search

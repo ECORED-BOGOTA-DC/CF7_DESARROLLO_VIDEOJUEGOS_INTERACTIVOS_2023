@@ -655,7 +655,7 @@
       .col(style="place-self:center;")
         h3.mb-0(data-aos="fade-right") Características de Scrum
     
-    p.mt-5(data-aos="fade-up") Este componente o asset permite realizar un testeo o evaluación rápida de las funcionalidades que se van incorporando al juego. Es una herramienta que se debe integrar desde la opción de Asset Store del menú de Unity ya que una vez se instala el programa no es importada de la nube automáticamente.
+    p.mt-5(data-aos="fade-up") Este componente o #[em asset] permite realizar un testeo o evaluación rápida de las funcionalidades que se van incorporando al juego. Es una herramienta que se debe integrar desde la opción de #[em Asset Store] del menú de Unity ya que una vez se instala el programa no es importada de la nube automáticamente.
     p.mt-4(data-aos="fade-up") Pasos para incorporar esta herramienta dentro del programa de Unity:
 
     TabsA.color-acento-contenido.mt-5
