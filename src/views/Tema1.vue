@@ -23,7 +23,7 @@
           h3(data-aos="fade-up") Iterativo e incremental
           p.mb-0(data-aos="fade-up") Existe el método iterativo y el iterativo incremental los que se pueden observar en el video sobre este concepto.
         .col-lg-3.col-md-3.d-flex.justify-content-center(style="place-self:center;")
-          a.boton.color-acento-botones(href="" target="_blank" data-aos="fade-left")
+          a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=_qUlL01th2s&ab_channel=EnciendelaLuz" target="_blank" data-aos="fade-left")
             span Ver video
             i.fas.fa-play
     
