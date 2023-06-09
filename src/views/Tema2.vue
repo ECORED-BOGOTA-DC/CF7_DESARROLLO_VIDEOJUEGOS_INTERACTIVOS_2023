@@ -233,14 +233,14 @@
           h5.mt-4(data-aos="fade-up") Construcción
           p.mt-2(data-aos="fade-up") En esta fase se llevan a cabo todas las iteraciones para el desarrollo del videojuego, teniendo en cuenta los requerimientos y el diseño.
           LineaTiempoD.color-secundario.mt-3
-            p(numero="1" titulo="Requerimientos.")
-            p(numero="2" titulo="Análisis y Diseño.")
-            p(numero="3" titulo="Codificación.") Se construyen las líneas de código necesarias en los componentes y las funciones que se planificaron.
-            p(numero="4" titulo="Prueba.") Se realizan pruebas con los usuarios y se configuran controles sobre los productos entregables, los cambios sobre los mismos y las versiones que se vayan obteniendo.
-            p(numero="5" titulo="Gestión del proyecto.") Se gestionan los riesgos y las restricciones, culminando con una versión del producto.
-            p(numero="6" titulo="Gestión y configuración de cambios.")
-            p(numero="7" titulo="Entregas incrementales.") Cada entrega se documenta hasta completar un manual.
-            p(numero="8" titulo="Iteración.")
+            p(numero="1" titulo="Requerimientos")
+            p(numero="2" titulo="Análisis y Diseño")
+            p(numero="3" titulo="Codificación") Se construyen las líneas de código necesarias en los componentes y las funciones que se planificaron.
+            p(numero="4" titulo="Prueba") Se realizan pruebas con los usuarios y se configuran controles sobre los productos entregables, los cambios sobre los mismos y las versiones que se vayan obteniendo.
+            p(numero="5" titulo="Gestión del proyecto") Se gestionan los riesgos y las restricciones, culminando con una versión del producto.
+            p(numero="6" titulo="Gestión y configuración de cambios")
+            p(numero="7" titulo="Entregas incrementales") Cada entrega se documenta hasta completar un manual.
+            p(numero="8" titulo="Iteración")
         .row.col-lg-10.m-auto.text-start
           .row.p-1.m-0(style="background-color:#8979F3;border-radius:10px;")
             .col-auto(style="place-self:center;")
