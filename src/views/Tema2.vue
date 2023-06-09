@@ -11,7 +11,7 @@
 
     .col-lg-6.m-auto.mt-5
       .titulo-sexto.color-acento-contenido
-        h5.d-block Figura 1.
+        h5.d-block Figura 1
         span Iteración incremental
       figure
         img(src="@/assets/curso/tema2/1.svg" data-aos="zoom-in-up")
