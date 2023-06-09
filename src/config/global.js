@@ -92,12 +92,12 @@ export default {
       },
     ],
     subMenu: [
-      /*{
+      {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
-      },*/
+      },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
@@ -122,7 +122,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CFA_7_228108.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -349,7 +349,7 @@ export default {
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Castaño Pérez Leyson Fabian',
+          nombre: 'Leyson Fabian Castaño Pérez',
           cargo: 'Validador de recursos educativos',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',

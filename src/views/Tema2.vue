@@ -11,7 +11,7 @@
 
     .col-lg-6.m-auto.mt-5
       .titulo-sexto.color-acento-contenido
-        h5 Figura 1.
+        h5.d-block Figura 1.
         span Iteración incremental
       figure
         img(src="@/assets/curso/tema2/1.svg" data-aos="zoom-in-up")
@@ -249,7 +249,7 @@
             .col(style="place-self:center;")
               h5.mb-0.text-white(data-aos="fade-up") Versión Final
           h5.mt-4(data-aos="fade-up") Transición
-          p.mt-2(data-aos="fade-up") Aquí el producto se convierte en la primera versión y el usuario está usando de manera activa el videojuego. El equipo desarrollador puede extender las funciones de acuerdo con el feedback recibido y ajustar los elementos y características, es decir también se llevan a cabo iteraciones pero con el producto en uso hasta alcanzar la versión final.
+          p.mt-2(data-aos="fade-up") Aquí el producto se convierte en la primera versión y el usuario está usando de manera activa el videojuego. El equipo desarrollador puede extender las funciones de acuerdo con el #[em feedback] recibido y ajustar los elementos y características, es decir también se llevan a cabo iteraciones pero con el producto en uso hasta alcanzar la versión final.
     
     .row.mt-5
       .col-auto.pe-0(style="place-self:center;")

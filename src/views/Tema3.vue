@@ -39,8 +39,8 @@
 
     .col-lg-6.m-auto.mt-5
       .titulo-sexto.color-acento-contenido
-        h5 Figura 2.
-        span Pruebas de usabilidad en videojuegos
+        h5.d-block Figura 2.
+        span #[em Pruebas de usabilidad en videojuegos]
       figure
         img(src="@/assets/curso/tema3/3.svg" data-aos="zoom-in-up")
     
