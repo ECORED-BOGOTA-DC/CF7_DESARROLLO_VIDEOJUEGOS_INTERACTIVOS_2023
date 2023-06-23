@@ -13,8 +13,8 @@
           :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0(data-aos="fade-up") Las siglas RITE significan #[em Rapid Iterative Testing Evaluation], es decir testeo rápido iterativo de evaluación. Por consiguiente, la metodología RITE consiste en un método para evaluar el desarrollo de un proyecto a través de ciclos rápidos de ejecución hasta alcanzar el resultado final, a estos ciclos se les llama iteraciones.
-          p.mt-4(data-aos="fade-up") Cada iteración representa un bloque de tareas que se realizan, se prueban y evalúan hasta lograr el perfeccionamiento del producto deseado.
+          p.mb-0.d-block(data-aos="fade-up") Las siglas RITE significan #[em Rapid Iterative Testing Evaluation], es decir testeo rápido iterativo de evaluación. Por consiguiente, la metodología RITE consiste en un método para evaluar el desarrollo de un proyecto a través de ciclos rápidos de ejecución hasta alcanzar el resultado final, a estos ciclos se les llama iteraciones.
+          p.mt-3.d-block(data-aos="fade-up") Cada iteración representa un bloque de tareas que se realizan, se prueban y evalúan hasta lograr el perfeccionamiento del producto deseado.
       .row.mt-5.p-4(style="background-color:#C0EBF6;border-radius:10px;")
         .col-md-3.col-lg-1.d-flex.justify-content-center.mb-4.mb-lg-0(style="place-self:center;")
           figure.m-auto.d-flex.justify-content-center
@@ -47,15 +47,15 @@
         | Verifica constantemente las mecánicas que se van creando.
       li(data-aos="fade-up")
         .lista-ol--cuadro__vineta
-          span(style="background-color:#8979F3;") a
+          span(style="background-color:#8979F3;") b
         | Hace los ajustes necesarios y los valida de nuevo.
       li(data-aos="fade-up")
         .lista-ol--cuadro__vineta
-          span(style="background-color:#8979F3;") a
+          span(style="background-color:#8979F3;") c
         | Vuelve a realizar las mejoras documentando los fallos o errores con los cambios que se van llevando a cabo en el diseño o en la programación. 
       li(data-aos="fade-up")
         .lista-ol--cuadro__vineta
-          span(style="background-color:#8979F3;") a
+          span(style="background-color:#8979F3;") d
         | Aproxima cada producto parcial a lo que finalmente se desea obtener.
     
     Separador.mt-5
@@ -147,7 +147,7 @@
           .col-lg-6
             figure
               img(src='@/assets/curso/tema1/10.svg')
-            p.mb-0.mt-1 #[em Herramienta BBD Extensión]
+            p.mb-0.mt-1 #[em Herramienta BBD Extension]
         .row(titulo="")
           .col-lg-6.mb-4.mb-lg-0
             p Después que el programa hace la descarga, aparece la siguiente pantalla y se debe hacer clic en el botón #[em Import] que aparece en la esquina inferior derecha de la ventana.
@@ -170,7 +170,7 @@
             p.mb-0.mt-1 #[em Adición de carpeta]
         .row(titulo="")
           .col-lg-6.mb-4.mb-lg-0
-            p Cuando se realiza cualquier acción en Unity por ejemplo, insertar un objeto a una escena, la herramienta #[em Unity Test Tools] se adiciona a este y analiza cualquier error en él o en la acción de copiarlo en la ventana de la escena.  Por ejemplo, a continuación la acción que se va a realizar es arrastrar con el mouse el Sprite 3 que es un objeto de fondo de la ventana de #[em Project] a la ventana de la escena:
+            p Cuando se realiza cualquier acción en Unity por ejemplo, insertar un objeto a una escena, la herramienta #[em Unity Test Tools] se adiciona a este y analiza cualquier error en él o en la acción de copiarlo en la ventana de la escena.  Por ejemplo, a continuación la acción que se va a realizar es arrastrar con el #[em mouse] el #[em Sprite] 3 que es un objeto de fondo de la ventana de #[em Project] a la ventana de la escena:
             a.boton.color-acento-botones.mt-3(href="#" @click.prevent="modal6 = true")
               span Ampliar imagen
               i.fas.fa-search
@@ -201,7 +201,7 @@
     ModalA(:abrir-modal.sync="modal3")
       figure
         img(src='@/assets/curso/tema1/10.svg')
-      p.mb-0.mt-1 #[em Herramienta BBD Extensión]
+      p.mb-0.mt-1 #[em Herramienta BBD Extension]
     ModalA(:abrir-modal.sync="modal4")
       figure
         img(src='@/assets/curso/tema1/11.svg')
@@ -217,7 +217,7 @@
     ModalA(:abrir-modal.sync="modal7")
       figure
         img(src='@/assets/curso/tema1/14.svg')
-      p.mb-0.mt-1 #[em Análisis de componente]
+      p.mb-0.mt-1 #[em Error de ejecución]
     
     .row.mt-5.p-4.col-lg-10.m-auto(style="background-color:#C0EBF6;border-radius:10px;")
       .col-md-3.col-lg-1.d-flex.justify-content-center.mb-4.mb-lg-0(style="place-self:center;")

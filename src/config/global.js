@@ -34,7 +34,7 @@ export default {
           {
             numero: '1.2',
             titulo: 'Herramienta de testeo incorporada a Unity',
-            hash: 't_1_3',
+            hash: 't_1_2',
           },
         ],
       },

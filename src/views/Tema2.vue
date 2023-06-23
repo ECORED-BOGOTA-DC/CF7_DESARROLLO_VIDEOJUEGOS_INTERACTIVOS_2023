@@ -11,7 +11,7 @@
 
     .col-lg-6.m-auto.mt-5
       .titulo-sexto.color-acento-contenido
-        h5.d-block Figura 1
+        h5.d-block Figura 9
         span Iteración incremental
       figure
         img(src="@/assets/curso/tema2/1.svg" data-aos="zoom-in-up")
@@ -29,7 +29,10 @@
           span a
         | El primer producto es colocar las imágenes en una escena; esta entrega consiste en dos iteraciones donde se realiza el mismo proceso:
     
-    .tabla-a.color-acento-botones.mt-5
+    .titulo-sexto.color-acento-contenido.mt-5
+      h5.d-block Tabla 1
+      span Iteraciones por inserción
+    .tabla-a.color-acento-botones.mt-4
       table
         thead(style="border:0;")
           tr(style="background-color:#8979F3;")
@@ -155,7 +158,7 @@
     .titulo-segundo
       h2#t_2_1 2.1 Proceso Unificado Racional - PUR
     
-    p(data-aos="fade-up") El Proceso Unificado Racional – PUR es una metodología de desarrollo de software que se basa en componentes e interfaces para analizar, diseñar, codificar, implementar, probar y documentar sistemas orientados a objetos y se vale para ello de un Lenguaje Unificado de Modelado - UML.
+    p(data-aos="fade-up") El Proceso Unificado Racional – PUR es una metodología de desarrollo de #[em software] que se basa en componentes e interfaces para analizar, diseñar, codificar, implementar, probar y documentar sistemas orientados a objetos y se vale para ello de un Lenguaje Unificado de Modelado - UML.
 
     .row.mt-5
       .col-auto.pe-0(style="place-self:center;")
@@ -343,7 +346,7 @@
     .titulo-segundo
       h2#t_2_2 2.2 Programación extrema - XP
     
-    p(data-aos="fade-up") La programación extrema - XP o #[em Extreme Programming] es una metodología de desarrollo de software que involucra a los usuarios desde el comienzo del proyecto hasta que finaliza siendo esta su mayor fortaleza, ya que asegura un desarrollo a la medida de acuerdo con las pruebas que estos van realizando a los productos entregados.
+    p(data-aos="fade-up") La programación extrema - XP o #[em Extreme Programming] es una metodología de desarrollo de #[em software] que involucra a los usuarios desde el comienzo del proyecto hasta que finaliza siendo esta su mayor fortaleza, ya que asegura un desarrollo a la medida de acuerdo con las pruebas que estos van realizando a los productos entregados.
     p.mt-4(ata-aos="fade-up") Durante el desarrollo del proyecto se pueden producir muchos cambios y esto garantiza una mayor aproximación del producto a lo que espera el usuario de él. Al igual que PUR posee elementos, trabaja en diferentes fases para lograr los resultados y tiene características que lo diferencian del anterior modelo.
 
     .row.mt-5
@@ -417,7 +420,7 @@
         p El resultado de esta etapa es la integración de los elementos creados en el diseño e igualmente la codificación de las pruebas (de unidad y aceptación) para verificar el cumplimiento de los estándares de programación y los requisitos de funcionalidad planteados en las anteriores etapas. 
       .tarjeta.color-acento-botones.p-3(x="71%" y="98%" numero="+" style="background-color:#D4F7FF;")
         .h5.mb-2 Prueba
-        p Se elaboran dos tipos de pruebas: las unitarias y las de aceptación. Las primeras son diseñadas y aplicadas por los desarrolladores para verificar el funcionamiento del sistema con las líneas de código y las segundas son diseñadas y aplicadas por los usuarios para determinar el cumplimiento incremental de las funcionalidades que se van implementado en el proyecto y que son verificadas con datos reales.
+        p Se elaboran dos tipos de pruebas: las unitarias y las de aceptación. Las primeras son diseñadas y aplicadas por los desarrolladores para verificar el funcionamiento del sistema con las líneas de código y las segundas son diseñadas y aplicadas por los usuarios para determinar el cumplimiento incremental de las funcionalidades que se van implementando en el proyecto y que son verificadas con datos reales.
       .tarjeta.color-acento-botones.p-3(x="91%" y="98%" numero="+" style="background-color:#D4F7FF;")
         .h5.mb-2 Lanzamiento
         p Corresponde al control de las versiones que se obtienen en el proceso de elaboración del producto y cuando se hacen modificaciones de este. Estas versiones se deben almacenar en un repositorio que conserve los históricos de lo que ha acontecido con el producto para gestionar las actualizaciones que se han llevado a cabo en una línea de tiempo.
@@ -525,7 +528,7 @@
                     td.p-3.text-center Que el juego habilite todas las entradas a las diferentes acciones que puedo llevar a cabo en el juego.
         .row
           .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
-            p La historia de usuario # 3 de la interfaz (pantalla) de inicio del juego corresponde al requerimiento de salir sin bloquear el juego o afectar funciones. El grado de dificultad para el desarrollador es considerable puesto que es superior a la mitad de la escala, ya que debe construir líneas de programación que eviten que el programa presente un bloqueo de sus funciones y que pueda continuar donde estaba en el momento de cerrarlo, aunque el jugador cierre la ventana sin utilizar la opción salir. Para el jugador no es tan prioritaria esta opción, puesto que le ha dado un valor de “6”.
+            p #[strong La historia de usuario # 3 de la interfaz (pantalla) de inicio del juego;] corresponde al requerimiento de salir sin bloquear el juego o afectar funciones. El grado de dificultad para el desarrollador es considerable puesto que es superior a la mitad de la escala, ya que debe construir líneas de programación que eviten que el programa presente un bloqueo de sus funciones y que pueda continuar donde estaba en el momento de cerrarlo, aunque el jugador cierre la ventana sin utilizar la opción salir. Para el jugador no es tan prioritaria esta opción, puesto que le ha dado un valor de “6”.
           .col-lg-8(style="place-self:center;")
             .tabla-a.color-acento-contenido(style="min-width:100%;")
               table(style="min-width:100%;")
@@ -535,7 +538,7 @@
                     th.text-center(colspan="2") Pantalla de inicio
                 tbody
                   tr(style="background-color:#fff;")
-                    td.p-3.text-center(colspan="3") Como jugador quiero salir del juego en cualquier momento y poder continuar donde esta cuando entre.
+                    td.p-3.text-center(colspan="3") Como jugador quiero salir del juego en cualquier momento y poder continuar donde está cuando entre.
                   tr(style="background-color:#fff;")
                     td.p-3.text-center.fw-bold Estimación
                     td.p-3.text-center.fw-bold Valor
@@ -543,7 +546,7 @@
                   tr(style="background-color:#fff;")
                     td.p-3.text-center 6
                     td.p-3.text-center 6
-                    td.p-3.text-center Que el juego presente la opción de salir sin tener que cerrar la ventana y sin importar que esté haciendo. Volver a  ingresar donde lo había dejado. 
+                    td.p-3.text-center Que el juego presente la opción de salir sin tener que cerrar la ventana y sin importar qué esté haciendo. Volver a  ingresar donde lo había dejado. 
 
 
 
@@ -552,7 +555,7 @@
     .titulo-segundo
       h2#t_2_3 2.3 Scrum
     
-    p(data-aos="fade-up") Es una metodología de trabajo en equipo para el desarrollo de un proyecto. El término fue extraído del deporte Rugby en el que un número de jugadores de cada equipo hace una formación fija para entrar a disputar la tenencia del balón y cada vez que este sale del juego se hace un nuevo Scrum o formación. Esta metodología fue desarrollada por Nonaka y Takeuchi en 1986 para agilizar el desarrollo de productos comerciales en cualquier sector de la economía. Es aplicable en la industria tecnológica para el desarrollo de software de diferentes categorías entre ellas los videojuegos.
+    p(data-aos="fade-up") Es una metodología de trabajo en equipo para el desarrollo de un proyecto. El término fue extraído del deporte Rugby en el que un número de jugadores de cada equipo hace una formación fija para entrar a disputar la tenencia del balón y cada vez que este sale del juego se hace un nuevo Scrum o formación. Esta metodología fue desarrollada por Nonaka y Takeuchi en 1986 para agilizar el desarrollo de productos comerciales en cualquier sector de la economía. Es aplicable en la industria tecnológica para el desarrollo de #[em software] de diferentes categorías entre ellas los videojuegos.
     p.mt-4(data-aos="fade-up") Esta metodología está enfocada en el trabajo organizado de manera colaborativa y en lo que cada persona puede aportar al equipo para cumplir los objetivos. Implementa buenas prácticas para la obtención rápida de resultados, establece las entregas incrementales acorde con los requisitos, se miden los tiempos y se observa la retrospectiva de trabajo para mejorar las actividades que impidan alcanzar la mayor productividad.  
 
     p.mt-5.fw-bold(data-aos="fade-up") Elementos Scrum:
@@ -565,7 +568,7 @@
       .tarjeta.color-secundario.p-4(titulo="Artefactos")
         p Están representados por la información clave generada en el proceso de desarrollo del producto; entre la que se encuentra la pila de producto, la planificación de la pila y la retrospectiva.
       .tarjeta.color-secundario.p-4(titulo="Flujo de actividades")
-        p Es la lista de tareas de iteración que se deben ejecutar para el desarrollo de la pila del sprint.
+        p Es la lista de tareas de iteración que se deben ejecutar para el desarrollo de la pila del #[em sprint].
       .tarjeta.color-secundario.p-4(titulo="Fases")
         p Corresponde a las diferentes etapas del proceso que se lleva a cabo para obtener el producto final.
     

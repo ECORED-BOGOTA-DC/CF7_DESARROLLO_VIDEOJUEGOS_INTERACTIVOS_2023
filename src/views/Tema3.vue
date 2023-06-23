@@ -60,7 +60,7 @@
       .col(style="place-self:center;")
         h3.mb-0(data-aos="fade-right") Técnica de evaluación heurística
     
-    p.mt-4(data-aos="fade-up") consiste en el análisis de la interfaz con la cual interactúa el usuario para determinar si responde a los siguientes principios de usabilidad, donde cada principio corresponde a una “H” en la heurística:
+    p.mt-4(data-aos="fade-up") Consiste en el análisis de la interfaz con la cual interactúa el usuario para determinar si responde a los siguientes principios de usabilidad, donde cada principio corresponde a una “H” en la heurística:
 
     TabsC.color-acento-contenido.mt-4
       .py-3.py-md-4(titulo="H1")
@@ -234,7 +234,7 @@
               h4.text-center(data-aos="fade-up" style="color:#12263F;") Post-test
               p.text-center(data-aos="fade-up" style="color:#12263F;") Después de que el usuario ha interactuado con todas las tareas que se le han planteado y se pueda medir su percepción global del producto.
     
-    p.mt-5(data-aos="fade-up") Se pueden realizar cuestionarios en diferentes momentos:
+    p.mt-5(data-aos="fade-up") Se pueden realizar cuestionarios en diferentes momentos.
 
     Separador.mt-5
 
@@ -394,7 +394,7 @@
       .tarjeta.color-secundario.p-4(titulo="Nivel de gravedad y <br> número de reiteraciones")
         .row
           .col-xl-6.mb-4.mb-xl-0
-            p En estas dos tablas se observa que, de acuerdo con lo establecido respecto a la relevancia y la frecuencia, el problema con mayor prioridad está en la heurísticas H4 de consistencia con la falla para tomar el control del juego cuando se interacciona con él. La heurística H8 representa un problema menor para el producto, ya que se considera que solo el 38% de la muestra considera que hay exceso de imágenes. Lo anterior quiere decir que el aspecto prioritario a modificar en el producto está en la elaboración de controles más sencillos, siguiendo un patrón de colores o estilos para hacerlo más comprensible y funcional para el jugador.
+            p En estas dos tablas se observa que, de acuerdo con lo establecido respecto a la relevancia y la frecuencia, el problema con mayor prioridad está en la heurística H4 de consistencia con la falla para tomar el control del juego cuando se interacciona con él. La heurística H8 representa un problema menor para el producto, ya que se considera que solo el 38% de la muestra considera que hay exceso de imágenes. Lo anterior quiere decir que el aspecto prioritario a modificar en el producto está en la elaboración de controles más sencillos, siguiendo un patrón de colores o estilos para hacerlo más comprensible y funcional para el jugador.
           .col-xl-6
             figure
               img(src="@/assets/curso/tema3/32.svg")
@@ -463,7 +463,7 @@
           p.mb-0 4.	El tiempo estimado para la realización de la prueba es de 30 minutos.
           p.mt-4 Lista de tareas
           p.mt-4 Tarea 1: buscar el primer tesoro escondido.
-          p.mt-4 ¿Fue fácil encontrar el tesoro que buscaba? (SÍ/NO) porqué (argumente la respuesta).
+          p.mt-4 ¿Fue fácil encontrar el tesoro que buscaba? (SÍ/NO) ¿Por qué? (argumente la respuesta).
           br
           br
           p.mt-5 Tarea 2: pedir una pista y hacer el recorrido hasta que encuentre un tesoro. 
@@ -471,15 +471,15 @@
           br
           br
           p.mt-5 Tarea 3: cancelar la búsqueda de un tesoro.
-          p.mt-4 ¿Pudo cancelar la búsqueda que estaba realizando? (SÍ/NO) por qué (explicar que pasó si hubo algún error en la cancelación).
+          p.mt-4 ¿Pudo cancelar la búsqueda que estaba realizando? (SÍ/NO) ¿Por qué? (explicar qué pasó si hubo algún error en la cancelación).
           br
           br
           p.mt-5 Tarea 4: registrarse en el juego para obtener más beneficios. 
-          p.mt-4 ¿Pudo realizar el registro para la obtención de beneficios? (SÍ/NO) por qué (explicar qué pasó si hubo algún problema en el registro).
+          p.mt-4 ¿Pudo realizar el registro para la obtención de beneficios? (SÍ/NO) ¿Por qué? (explicar qué pasó si hubo algún problema en el registro).
           br
           br
-          p.mt-5 TAREA 5: conectarse con otro jugador para hacer una búsqueda conjunta del tesoro. 
-          p.mt-4 ¿Pudo establecer contacto con otro jugador para realizar la búsqueda juntos? (SÍ/NO) #[br] por qué (explicar qué pasó si hubo algún problema).
+          p.mt-5 Tarea 5: conectarse con otro jugador para hacer una búsqueda conjunta del tesoro. 
+          p.mt-4 ¿Pudo establecer contacto con otro jugador para realizar la búsqueda juntos? (SÍ/NO) #[br] ¿Por qué? (explicar qué pasó si hubo algún problema).
           p.mt-5.mb-5 ¿El aplicativo arrojó algún mensaje de éxito o de error dependiendo de si pudo o no realizar el contacto? SÍ/NO (si la respuesta es SÍ/NO qué mensaje arrojó).
     
     p.mt-5(data-aos="fade-up") Los formatos diligenciados por los participantes son analizados y verificados por el equipo desarrollador para proceder a la corrección de las fallas presentados y volver a realizar la prueba que comprueben las mejoras en la funcionalidad del producto. 
