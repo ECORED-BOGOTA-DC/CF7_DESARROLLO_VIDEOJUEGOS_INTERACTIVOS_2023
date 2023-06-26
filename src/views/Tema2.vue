@@ -31,7 +31,7 @@
     
     .titulo-sexto.color-acento-contenido.mt-5
       h5.d-block Tabla 1
-      span Iteraciones por inserción
+      span Iteraciones para inserción
     .tabla-a.color-acento-botones.mt-4
       table
         thead(style="border:0;")
